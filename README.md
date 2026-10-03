@@ -22,6 +22,7 @@ build-new/Release/BadApple.exe
 1. Initialize a terminal or IDE.
 2. Open folder and write in terminal the ff. "./build-new/Release/BadApple.exe
 3. Select video
+4. Open terminal to view display
 
 ## FAQ 
 1. OpenCV won't read video, make sure these files are in BadApple/build-new/Release
