@@ -1,0 +1,10 @@
+^C:\USERS\MON\DESKTOP\BADAPPLE\BUILD-NEW\CMAKEFILES\DFAED4F8EF6941CF030E48AEC683583A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mon/Desktop/BadApple -BC:/Users/mon/Desktop/BadApple/build-new --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mon/Desktop/BadApple/build-new/BadApple.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
